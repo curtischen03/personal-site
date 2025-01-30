@@ -1,0 +1,125 @@
+.gradient-background {
+    background: linear-gradient(300deg, #7CF5FF, #e4f9f5, #e4f9f5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1{
+    color:#00A8CC;
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:10px;
+}
+
+h2{
+    color:#00A8CC;
+    font-family: "Rozha One", serif;
+    font-size:40px;
+    font-style: normal;
+    font-weight:normal;
+    letter-spacing:5px;
+}
+.intro-p {
+    color:#00A8CC;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size:30px;
+    letter-spacing:5px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.profile{
+    height:220px;
+    border-radius:50%;
+}
+
+.summary-p{
+    color:black;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size:30px;
+    letter-spacing:2px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: repeat(4,1fr);
+    gap:40px;
+
+}
+.flex{
+    display:flex;
+    justify-content:flex-end;
+}
+.grid img{
+    height:40px;
+    margin:10px;
+}
+.grid div{
+    height:100px;
+    margin:15px;
+}
+.grid h3{
+    color:#00A8CC;
+    font-family: "Roboto", serif;
+    font-size:25px;
+    letter-spacing:2px;
+    font-style: normal;
+    font-weight:bold;
+    font-variation-settings:
+      "wdth" 100;
+}
+.grid p{
+    color:black;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size:25px;
+    letter-spacing:2px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+#contact-me p{
+    color:black;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size:25px;
+    letter-spacing:2px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+#footer {
+    background-color:#00bfff;
+}
+#footer li{
+    font-size:20px;
+}
+#footer p{
+    font-size:20px;
+}
